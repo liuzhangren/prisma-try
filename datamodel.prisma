@@ -1,0 +1,11 @@
+type User {
+  id: ID! @id
+  name: String!
+}
+
+type Goods {
+  id: ID! @id
+  name: String
+  price: Int
+  description: String!
+}
